@@ -103,3 +103,31 @@ body::after {
   bottom: -50px; right: -50px;
 }
 .container { position: relative; z-index: 1; }
+
+#history {
+  margin-top: 20px;
+  text-align: left;
+}
+#history h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+#history-list {
+  list-style: none;
+  max-height: 160px;
+  overflow-y: auto;
+}
+#history-list li {
+  background: rgba(0,0,0,0.25);
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+#history-list li span {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-bottom: 3px;
+}
